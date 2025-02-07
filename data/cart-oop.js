@@ -62,11 +62,8 @@ export function Cart(localStorageKey) {
 const cart = Cart('cart-oop');
 const bCart = Cart('cart-business');
 
-
 cart.loadFromStorage();
 bCart.loadFromStorage();
 
 console.log(cart);
 console.log(bCart);
-
-
